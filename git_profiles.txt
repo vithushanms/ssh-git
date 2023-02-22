@@ -1,0 +1,9 @@
+[example]
+username=exampleuser
+email=example@email.com
+key=nameofthekey
+
+[example1]
+username=exampleuser1
+email=example1@email.com
+key=nameofthekey1
