@@ -1,4 +1,4 @@
-# ssh-git Git Automation Script
+# ssh-git: Git Automation Script
 Bash script that helps to manage git with multiple remote accounts linked via ssh keys  
 
 This script is designed to automate common Git tasks. The script can perform the following Git actions:
