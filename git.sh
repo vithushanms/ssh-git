@@ -92,5 +92,12 @@ elif [ "$action" = "clone" ]; then
   echo
   echo "git clone executed"
 else
-  echo "Please enter a valid git command. Try $(basename "$0") -h for help"
+  echo "executing git $action"
+  echo
+  ssh-add ~/.ssh/"$key"
+  echo
+  git $action;
+  echo
+  echo "git $action executed"
+  
 fi
